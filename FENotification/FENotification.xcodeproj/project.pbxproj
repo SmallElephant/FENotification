@@ -1,0 +1,548 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C551270D1F1B7445005DFA0F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C551270C1F1B7445005DFA0F /* main.m */; };
+		C55127101F1B7445005DFA0F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C551270F1F1B7445005DFA0F /* AppDelegate.m */; };
+		C55127131F1B7445005DFA0F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C55127121F1B7445005DFA0F /* ViewController.m */; };
+		C55127161F1B7445005DFA0F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C55127141F1B7445005DFA0F /* Main.storyboard */; };
+		C55127181F1B7445005DFA0F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C55127171F1B7445005DFA0F /* Assets.xcassets */; };
+		C551271B1F1B7445005DFA0F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C55127191F1B7445005DFA0F /* LaunchScreen.storyboard */; };
+		C55127261F1B7445005DFA0F /* FENotificationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C55127251F1B7445005DFA0F /* FENotificationTests.m */; };
+		C55127311F1B7445005DFA0F /* FENotificationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C55127301F1B7445005DFA0F /* FENotificationUITests.m */; };
+		C55127401F1BADBA005DFA0F /* FENotificationCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = C551273F1F1BADBA005DFA0F /* FENotificationCenter.m */; };
+		C551275B1F1DADB3005DFA0F /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C551275A1F1DADB3005DFA0F /* DetailViewController.m */; };
+		C551275E1F1DCF8C005DFA0F /* FENotification.m in Sources */ = {isa = PBXBuildFile; fileRef = C551275D1F1DCF8C005DFA0F /* FENotification.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C55127221F1B7445005DFA0F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C55127001F1B7445005DFA0F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C55127071F1B7445005DFA0F;
+			remoteInfo = FENotification;
+		};
+		C551272D1F1B7445005DFA0F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C55127001F1B7445005DFA0F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C55127071F1B7445005DFA0F;
+			remoteInfo = FENotification;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C55127081F1B7445005DFA0F /* FENotification.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FENotification.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C551270C1F1B7445005DFA0F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C551270E1F1B7445005DFA0F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C551270F1F1B7445005DFA0F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C55127111F1B7445005DFA0F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C55127121F1B7445005DFA0F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C55127151F1B7445005DFA0F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C55127171F1B7445005DFA0F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C551271A1F1B7445005DFA0F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C551271C1F1B7445005DFA0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C55127211F1B7445005DFA0F /* FENotificationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FENotificationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C55127251F1B7445005DFA0F /* FENotificationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FENotificationTests.m; sourceTree = "<group>"; };
+		C55127271F1B7445005DFA0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C551272C1F1B7445005DFA0F /* FENotificationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FENotificationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C55127301F1B7445005DFA0F /* FENotificationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FENotificationUITests.m; sourceTree = "<group>"; };
+		C55127321F1B7445005DFA0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C551273E1F1BADBA005DFA0F /* FENotificationCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FENotificationCenter.h; sourceTree = "<group>"; };
+		C551273F1F1BADBA005DFA0F /* FENotificationCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FENotificationCenter.m; sourceTree = "<group>"; };
+		C55127591F1DADB3005DFA0F /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		C551275A1F1DADB3005DFA0F /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		C551275C1F1DCF8C005DFA0F /* FENotification.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FENotification.h; sourceTree = "<group>"; };
+		C551275D1F1DCF8C005DFA0F /* FENotification.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FENotification.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C55127051F1B7445005DFA0F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C551271E1F1B7445005DFA0F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C55127291F1B7445005DFA0F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C55126FF1F1B7445005DFA0F = {
+			isa = PBXGroup;
+			children = (
+				C551270A1F1B7445005DFA0F /* FENotification */,
+				C55127241F1B7445005DFA0F /* FENotificationTests */,
+				C551272F1F1B7445005DFA0F /* FENotificationUITests */,
+				C55127091F1B7445005DFA0F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C55127091F1B7445005DFA0F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C55127081F1B7445005DFA0F /* FENotification.app */,
+				C55127211F1B7445005DFA0F /* FENotificationTests.xctest */,
+				C551272C1F1B7445005DFA0F /* FENotificationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C551270A1F1B7445005DFA0F /* FENotification */ = {
+			isa = PBXGroup;
+			children = (
+				C551270E1F1B7445005DFA0F /* AppDelegate.h */,
+				C551270F1F1B7445005DFA0F /* AppDelegate.m */,
+				C55127111F1B7445005DFA0F /* ViewController.h */,
+				C55127121F1B7445005DFA0F /* ViewController.m */,
+				C55127591F1DADB3005DFA0F /* DetailViewController.h */,
+				C551275A1F1DADB3005DFA0F /* DetailViewController.m */,
+				C55127141F1B7445005DFA0F /* Main.storyboard */,
+				C55127171F1B7445005DFA0F /* Assets.xcassets */,
+				C55127191F1B7445005DFA0F /* LaunchScreen.storyboard */,
+				C551271C1F1B7445005DFA0F /* Info.plist */,
+				C551270B1F1B7445005DFA0F /* Supporting Files */,
+				C551273E1F1BADBA005DFA0F /* FENotificationCenter.h */,
+				C551273F1F1BADBA005DFA0F /* FENotificationCenter.m */,
+				C551275C1F1DCF8C005DFA0F /* FENotification.h */,
+				C551275D1F1DCF8C005DFA0F /* FENotification.m */,
+			);
+			path = FENotification;
+			sourceTree = "<group>";
+		};
+		C551270B1F1B7445005DFA0F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C551270C1F1B7445005DFA0F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C55127241F1B7445005DFA0F /* FENotificationTests */ = {
+			isa = PBXGroup;
+			children = (
+				C55127251F1B7445005DFA0F /* FENotificationTests.m */,
+				C55127271F1B7445005DFA0F /* Info.plist */,
+			);
+			path = FENotificationTests;
+			sourceTree = "<group>";
+		};
+		C551272F1F1B7445005DFA0F /* FENotificationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C55127301F1B7445005DFA0F /* FENotificationUITests.m */,
+				C55127321F1B7445005DFA0F /* Info.plist */,
+			);
+			path = FENotificationUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C55127071F1B7445005DFA0F /* FENotification */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C55127351F1B7445005DFA0F /* Build configuration list for PBXNativeTarget "FENotification" */;
+			buildPhases = (
+				C55127041F1B7445005DFA0F /* Sources */,
+				C55127051F1B7445005DFA0F /* Frameworks */,
+				C55127061F1B7445005DFA0F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FENotification;
+			productName = FENotification;
+			productReference = C55127081F1B7445005DFA0F /* FENotification.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C55127201F1B7445005DFA0F /* FENotificationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C55127381F1B7445005DFA0F /* Build configuration list for PBXNativeTarget "FENotificationTests" */;
+			buildPhases = (
+				C551271D1F1B7445005DFA0F /* Sources */,
+				C551271E1F1B7445005DFA0F /* Frameworks */,
+				C551271F1F1B7445005DFA0F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C55127231F1B7445005DFA0F /* PBXTargetDependency */,
+			);
+			name = FENotificationTests;
+			productName = FENotificationTests;
+			productReference = C55127211F1B7445005DFA0F /* FENotificationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C551272B1F1B7445005DFA0F /* FENotificationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C551273B1F1B7445005DFA0F /* Build configuration list for PBXNativeTarget "FENotificationUITests" */;
+			buildPhases = (
+				C55127281F1B7445005DFA0F /* Sources */,
+				C55127291F1B7445005DFA0F /* Frameworks */,
+				C551272A1F1B7445005DFA0F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C551272E1F1B7445005DFA0F /* PBXTargetDependency */,
+			);
+			name = FENotificationUITests;
+			productName = FENotificationUITests;
+			productReference = C551272C1F1B7445005DFA0F /* FENotificationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C55127001F1B7445005DFA0F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = FlyElephant;
+				TargetAttributes = {
+					C55127071F1B7445005DFA0F = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					C55127201F1B7445005DFA0F = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C55127071F1B7445005DFA0F;
+					};
+					C551272B1F1B7445005DFA0F = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C55127071F1B7445005DFA0F;
+					};
+				};
+			};
+			buildConfigurationList = C55127031F1B7445005DFA0F /* Build configuration list for PBXProject "FENotification" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C55126FF1F1B7445005DFA0F;
+			productRefGroup = C55127091F1B7445005DFA0F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C55127071F1B7445005DFA0F /* FENotification */,
+				C55127201F1B7445005DFA0F /* FENotificationTests */,
+				C551272B1F1B7445005DFA0F /* FENotificationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C55127061F1B7445005DFA0F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C551271B1F1B7445005DFA0F /* LaunchScreen.storyboard in Resources */,
+				C55127181F1B7445005DFA0F /* Assets.xcassets in Resources */,
+				C55127161F1B7445005DFA0F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C551271F1F1B7445005DFA0F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C551272A1F1B7445005DFA0F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C55127041F1B7445005DFA0F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C551275B1F1DADB3005DFA0F /* DetailViewController.m in Sources */,
+				C551275E1F1DCF8C005DFA0F /* FENotification.m in Sources */,
+				C55127401F1BADBA005DFA0F /* FENotificationCenter.m in Sources */,
+				C55127131F1B7445005DFA0F /* ViewController.m in Sources */,
+				C55127101F1B7445005DFA0F /* AppDelegate.m in Sources */,
+				C551270D1F1B7445005DFA0F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C551271D1F1B7445005DFA0F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C55127261F1B7445005DFA0F /* FENotificationTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C55127281F1B7445005DFA0F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C55127311F1B7445005DFA0F /* FENotificationUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C55127231F1B7445005DFA0F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C55127071F1B7445005DFA0F /* FENotification */;
+			targetProxy = C55127221F1B7445005DFA0F /* PBXContainerItemProxy */;
+		};
+		C551272E1F1B7445005DFA0F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C55127071F1B7445005DFA0F /* FENotification */;
+			targetProxy = C551272D1F1B7445005DFA0F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C55127141F1B7445005DFA0F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C55127151F1B7445005DFA0F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C55127191F1B7445005DFA0F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C551271A1F1B7445005DFA0F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C55127331F1B7445005DFA0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C55127341F1B7445005DFA0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C55127361F1B7445005DFA0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FENotification/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "github.com-SmallElephant.FENotification";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C55127371F1B7445005DFA0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FENotification/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "github.com-SmallElephant.FENotification";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C55127391F1B7445005DFA0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FENotificationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "github.com-SmallElephant.FENotificationTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FENotification.app/FENotification";
+			};
+			name = Debug;
+		};
+		C551273A1F1B7445005DFA0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FENotificationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "github.com-SmallElephant.FENotificationTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FENotification.app/FENotification";
+			};
+			name = Release;
+		};
+		C551273C1F1B7445005DFA0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FENotificationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "github.com-SmallElephant.FENotificationUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FENotification;
+			};
+			name = Debug;
+		};
+		C551273D1F1B7445005DFA0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FENotificationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "github.com-SmallElephant.FENotificationUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FENotification;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C55127031F1B7445005DFA0F /* Build configuration list for PBXProject "FENotification" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C55127331F1B7445005DFA0F /* Debug */,
+				C55127341F1B7445005DFA0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C55127351F1B7445005DFA0F /* Build configuration list for PBXNativeTarget "FENotification" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C55127361F1B7445005DFA0F /* Debug */,
+				C55127371F1B7445005DFA0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C55127381F1B7445005DFA0F /* Build configuration list for PBXNativeTarget "FENotificationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C55127391F1B7445005DFA0F /* Debug */,
+				C551273A1F1B7445005DFA0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C551273B1F1B7445005DFA0F /* Build configuration list for PBXNativeTarget "FENotificationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C551273C1F1B7445005DFA0F /* Debug */,
+				C551273D1F1B7445005DFA0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C55127001F1B7445005DFA0F /* Project object */;
+}
